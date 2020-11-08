@@ -11,6 +11,6 @@ namespace FileShare.Contract.Services
     interface IPingServices
     {
         [OperationContract(IsOneWay = true)]
-        void Ping(int Port, string peerUri)
+        void Ping(int Port, string peerUri);
     }
 }
