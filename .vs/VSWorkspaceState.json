@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Contract",
-    "\\Domain",
-    "\\Logics",
-    "\\Presentation",
-    "\\Test"
+    "\\PeerToPeer"
   ],
-  "SelectedNode": "\\Presentation",
+  "SelectedNode": "\\PeerToPeer\\PeerToPeer.sln",
   "PreviewInSolutionExplorer": false
 }
