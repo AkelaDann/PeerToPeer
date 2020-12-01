@@ -3,9 +3,9 @@ using System.Net.PeerToPeer;
 
 namespace FileShare.Domain.Model
 {
-    public class PeerEndPointCollection
+    public class PeerEndPointsCollection
     {
-        public PeerEndPointCollection(PeerName Peer , IPEndPointCollection iPEndPoint)
+        public PeerEndPointsCollection(PeerName Peer , IPEndPointCollection iPEndPoint)
             {
             PeerHostName = Peer;
             PeerEndPoint = iPEndPoint;

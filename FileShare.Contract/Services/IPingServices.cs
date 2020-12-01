@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace FileShare.Contract.Services
 {
     [ServiceContract(CallbackContract = typeof(IPingServices))]
-    interface IPingServices
+    public interface IPingServices
     {
         [OperationContract(IsOneWay = true)]
         void Ping(int Port, string peerUri);

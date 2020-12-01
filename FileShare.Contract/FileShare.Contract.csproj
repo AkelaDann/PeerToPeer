@@ -46,8 +46,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IPeerNameResolverRepository.cs" />
     <Compile Include="Repository\IPeerRegistrationRepository.cs" />
+    <Compile Include="Services\IPeerConfigurationService.cs" />
     <Compile Include="Services\IPingServices.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\FileShare.Domain\FileShare.Domain.csproj">
+      <Project>{2a0eb564-f83a-4cd0-bb69-f9a2950a5af6}</Project>
+      <Name>FileShare.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
