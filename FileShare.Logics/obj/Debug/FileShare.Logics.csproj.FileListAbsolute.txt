@@ -1,0 +1,11 @@
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/obj/Debug/FileShare.Logics.csprojAssemblyReference.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/obj/Debug/FileShare.Logics.csproj.CoreCompileInputs.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Logics.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Logics.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Contract.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Domain.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Contract.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/bin/Debug/FileShare.Domain.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/obj/Debug/FileShare.Logics.csproj.CopyComplete
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/obj/Debug/FileShare.Logics.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Logics/obj/Debug/FileShare.Logics.pdb

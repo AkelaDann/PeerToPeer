@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -48,6 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileShare.Domain\FileShare.Domain.csproj">
+      <Project>{2A0EB564-F83A-4CD0-BB69-F9A2950A5AF6}</Project>
+      <Name>FileShare.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileShare.Contract\FileShare.Contract.csproj">
+      <Project>{DAECDA85-80CD-4EB9-85EB-B47313B6DB43}</Project>
+      <Name>FileShare.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileShare.Logics\FileShare.Logics.csproj">
+      <Project>{1E9D7050-A7B2-4C06-B255-7FBDAC1543BA}</Project>
+      <Name>FileShare.Logics</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

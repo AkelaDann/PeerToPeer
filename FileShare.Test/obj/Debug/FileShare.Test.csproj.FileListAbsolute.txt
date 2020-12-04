@@ -1,0 +1,14 @@
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Test.exe.config
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Test.exe
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Test.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Contract.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Domain.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Logics.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Domain.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Contract.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/bin/Debug/FileShare.Logics.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.csprojAssemblyReference.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.csproj.CoreCompileInputs.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.csproj.CopyComplete
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.exe
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.pdb

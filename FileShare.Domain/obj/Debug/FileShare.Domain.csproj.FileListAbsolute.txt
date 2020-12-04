@@ -1,0 +1,6 @@
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/bin/Debug/FileShare.Domain.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/bin/Debug/FileShare.Domain.pdb
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/obj/Debug/FileShare.Domain.csprojAssemblyReference.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/obj/Debug/FileShare.Domain.csproj.CoreCompileInputs.cache
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/obj/Debug/FileShare.Domain.dll
+/home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Domain/obj/Debug/FileShare.Domain.pdb

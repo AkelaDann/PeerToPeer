@@ -72,7 +72,7 @@ namespace FileShare.Logics.ServiceManager
                 }
                 catch(PeerToPeerException e)
                 {
-                    throw new PeerToPeerException("error estableciendo los servicios Peer")
+                    throw new PeerToPeerException("error estableciendo los servicios Peer");
                 }
             }
             return _isServiceStarted;
