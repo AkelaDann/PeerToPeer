@@ -7,3 +7,12 @@
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Contract/obj/Debug/FileShare.Contract.csproj.CopyComplete
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Contract/obj/Debug/FileShare.Contract.dll
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Contract/obj/Debug/FileShare.Contract.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Contract.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Contract.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Domain.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Domain.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csprojAssemblyReference.cache
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CopyComplete
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.pdb

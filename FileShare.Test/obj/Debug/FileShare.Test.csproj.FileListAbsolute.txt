@@ -12,3 +12,17 @@
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.csproj.CopyComplete
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.exe
 /home/daniel/Escritorio/Tesis/PeerToPeer/FileShare.Test/obj/Debug/FileShare.Test.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Test.exe.config
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Test.exe
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Test.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Contract.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Domain.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Logics.dll
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Domain.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Contract.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\bin\Debug\FileShare.Logics.pdb
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\obj\Debug\FileShare.Test.csprojAssemblyReference.cache
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\obj\Debug\FileShare.Test.csproj.CoreCompileInputs.cache
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\obj\Debug\FileShare.Test.csproj.CopyComplete
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\obj\Debug\FileShare.Test.exe
+C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Test\obj\Debug\FileShare.Test.pdb

@@ -27,7 +27,7 @@ namespace FileShare.Logics.ServiceManager
 
         #endregion
 
-        public int Port => FindFreePort();
+        //public int Port => FindFreePort();
 
         private int FindFreePort()
         {
@@ -40,13 +40,16 @@ namespace FileShare.Logics.ServiceManager
                 port = local.Port;
             }
             if (port == 0)
+            {
                 throw new ArgumentNullException(nameof(port));
+            } 
+                
             return port;
         }
 
         public Peer<IPingServices> Peer { get; }
-            
-        int IPeerConfigurationService.port => throw new NotImplementedException();
+
+        int IPeerConfigurationService.port => FindFreePort();
 
         public bool StartPeerService()
         {

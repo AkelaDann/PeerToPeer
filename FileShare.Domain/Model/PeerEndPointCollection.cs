@@ -10,7 +10,7 @@ namespace FileShare.Domain.Model
             PeerHostName = Peer;
             PeerEndPoint = iPEndPoint;
             }
-        public PeerName PeerHostName { get; }
+        public PeerName PeerHostName { get; } 
         public IPEndPointCollection PeerEndPoint { get; }
     }
 }
