@@ -4,12 +4,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using FileShare.Contract.Repository;
 using FileShare.Contract.Services;
 using FileShare.Domain.Model;
 using FileShare.Logics.PnrpManager;
 using FileShare.Logics.ServiceManager;
+using FileShare.Test.PeerHostServices;
+
 
 namespace FileShare.Test
 {
@@ -30,15 +33,25 @@ namespace FileShare.Test
 
         private void Run()
         {
-            Peer<IPingServices> peer = new Peer<IPingServices> {UserName = Guid.NewGuid().ToString().Split('-')[4]};
+            Console.WriteLine($"Hola ingrese su usuario:");
+            string username = Console.ReadLine();
+
+            Peer<IPingServices> peer = new Peer<IPingServices>
+            {
+                PeerId = Guid.NewGuid().ToString().Split('-')[4],
+                UserName = username
+            };
+
             IPeerRegistrationRepository peerRegistration = new PeerRegistrationManager();
-            IPeerNameResolverRepository peerNameResolver = new PeerNameResolver(peer.UserName);
-            IPeerConfigurationService peerConfigurationService = new PeerConfigurationService(peer);
-            peerRegistration.StartPeerRegistration(peer.UserName, peerConfigurationService.port);
-            Console.WriteLine("Peer Information");
-            Console.WriteLine($"Peer Uri : {peerRegistration.PeerUri}  port {peerConfigurationService.port}");
-            var host = Dns.GetHostEntry(peerRegistration.PeerUri);
-            host.AddressList?.ToList().ForEach(p => Console.WriteLine($"\t\t IP : {p}"));
+            IPeerNameResolverRepository peerNameResolver = new PeerNameResolver(peer.PeerId);
+            IPeerConfigurationService<PingService> peerConfigurationService = new PeerConfigurationService(peer);
+            PeerServicesHost psh = new PeerServicesHost (peerRegistration,peerNameResolver,peerConfigurationService);
+            Thread thd = new Thread( () => 
+            {
+                psh.RunPeerServiceHost(peer);
+            }) {IsBackground = true };
+
+            thd.Start();
             Console.ReadLine();
         }
     }

@@ -14,5 +14,7 @@ namespace FileShare.Contract.Repository
         PeerName PeerName { get; set; }
         void StartPeerRegistration(string username, int port);
         void StopPeerRegistration();
+
+  
     }
 }

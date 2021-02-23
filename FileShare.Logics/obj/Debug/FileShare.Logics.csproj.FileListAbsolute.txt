@@ -20,3 +20,14 @@ C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.csproj.CopyComplete
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.dll
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Logics.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Logics.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Contract.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Domain.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Contract.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\bin\Debug\FileShare.Domain.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.csprojAssemblyReference.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.csproj.CopyComplete
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Logics\obj\Debug\FileShare.Logics.pdb

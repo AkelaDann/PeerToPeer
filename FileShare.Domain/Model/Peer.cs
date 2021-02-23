@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace FileShare.Domain.Model
 {
+    
     public class Peer <T>
     {
         public string PeerId { get; set; }

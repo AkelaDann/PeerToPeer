@@ -29,15 +29,21 @@ namespace FileShare.Desktop.PeerHostServices
             if (peer == null)
                 throw new ArgumentNullException(nameof(peer));
 
-            RegisterPeer.StartPeerRegistration(peer.UserName, ConfigurePeer.port);
+            RegisterPeer.StartPeerRegistration(peer.PeerId, ConfigurePeer.port);
             if (RegisterPeer.IsPeerRegistered)
             {
-                Console.WriteLine($"PeerResgistrationCompleted");
+                Console.WriteLine($"{peer.UserName}  PeerResgistrationCompleted");
                 Console.WriteLine($"Peer Uri : {RegisterPeer.PeerUri} Port: {ConfigurePeer.port}");
             }
              if(ResolvePeer != null)
             {
-                Console.WriteLine($"Resolving peer");
+                Console.WriteLine($"Resolving peer  {peer.UserName}");
+                ResolvePeer.ResolvePeerName(peer.PeerId);
+                Console.WriteLine($"\t\t Endpoint for {RegisterPeer.PeerUri}");
+                if (ResolvePeer.PeerEndPointCollection.PeerEndPoint.Any()) 
+                {
+                    ResolvePeer.PeerEndPointCollection.PeerEndPoint.ToList().ForEach(p => Console.WriteLine($"IP : {p.Address}"));
+                };
             }
         }
 

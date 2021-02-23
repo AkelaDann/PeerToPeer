@@ -8,11 +8,13 @@ using System.Threading.Tasks;
 
 namespace FileShare.Contract.Services
 {
-    public interface IPeerConfigurationService
+    public interface IPeerConfigurationService<T>
     {
         int port { get; }
         Peer<IPingServices> Peer { get; }
+        T PingServices { get; set; }
         bool StartPeerService();
         bool StopPeerService();
     }
 }
+ 

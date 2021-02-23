@@ -9,7 +9,7 @@ using System.ServiceModel.Description;
 
 namespace FileShare.Logics.ServiceManager
 {
-    public class PeerConfigurationService : IPeerConfigurationService
+    public class PeerConfigurationService : IPeerConfigurationService<PingService>
     {
         #region fields 
         private int port;
@@ -23,6 +23,7 @@ namespace FileShare.Logics.ServiceManager
         public PeerConfigurationService(Peer<IPingServices> peer)
         {
             Peer = peer;
+            PingServices = new PingService();
         }
 
         #endregion
@@ -49,7 +50,11 @@ namespace FileShare.Logics.ServiceManager
 
         public Peer<IPingServices> Peer { get; }
 
-        int IPeerConfigurationService.port => FindFreePort();
+        //int IPeerConfigurationService.port => FindFreePort();
+
+        int IPeerConfigurationService<PingService>.port => FindFreePort();
+
+        public PingService PingServices { get ; set ; }
 
         public bool StartPeerService()
         {
@@ -60,7 +65,7 @@ namespace FileShare.Logics.ServiceManager
             };
 #pragma warning restore 618
             var endPoint = new ServiceEndpoint(ContractDescription.GetContract(typeof(IPingServices)), binding, new EndpointAddress("Net.p2p://FileShare"));
-            Peer.Host = new PingService();
+            Peer.Host = PingServices;
             _factory = new DuplexChannelFactory<IPingServices>(new InstanceContext(Peer.Host), endPoint);
             Peer.Channel = _factory.CreateChannel();
             Communication = (ICommunicationObject) Peer.Channel;
@@ -75,7 +80,7 @@ namespace FileShare.Logics.ServiceManager
                 }
                 catch(PeerToPeerException e)
                 {
-                    throw new PeerToPeerException("error estableciendo los servicios Peer");
+                    throw new PeerToPeerException("error estableciendo los servicios Peer: "+e);
                 }
             }
             return _isServiceStarted;
@@ -85,6 +90,7 @@ namespace FileShare.Logics.ServiceManager
         {
             _isServiceStarted = true;   
         }
+
 
         public bool StopPeerService()
         {

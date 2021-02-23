@@ -1,16 +1,18 @@
-﻿using System.Net;
+﻿using System.Collections.ObjectModel;
+using System.Net;
 using System.Net.PeerToPeer;
 
 namespace FileShare.Domain.Model
 {
     public class PeerEndPointsCollection
     {
-        public PeerEndPointsCollection(PeerName Peer , IPEndPointCollection iPEndPoint)
-            {
+        public PeerEndPointsCollection(PeerName Peer)
+        {
             PeerHostName = Peer;
-            PeerEndPoint = iPEndPoint;
+            PeerEndPoints = new ObservableCollection<PeerEndPointInfo>();
             }
-        public PeerName PeerHostName { get; } 
-        public IPEndPointCollection PeerEndPoint { get; }
+        public PeerName PeerHostName { get; set; }
+        public ObservableCollection<PeerEndPointInfo> PeerEndPoints { get; set; }
+        
     }
 }

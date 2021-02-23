@@ -10,3 +10,9 @@ C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.dll
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Domain\bin\Debug\FileShare.Domain.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Domain\bin\Debug\FileShare.Domain.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.pdb
+C:\Users\danie\source\repos\AkelaDann\PeerToPeer\FileShare.Domain\obj\Debug\FileShare.Domain.csprojAssemblyReference.cache

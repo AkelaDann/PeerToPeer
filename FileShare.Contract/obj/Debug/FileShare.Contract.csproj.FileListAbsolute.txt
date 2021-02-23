@@ -16,3 +16,12 @@ C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debu
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CopyComplete
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.dll
 C:\Users\Nath&Dann\source\repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Contract.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Contract.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Domain.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\FileShare.Domain.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csprojAssemblyReference.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CopyComplete
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.pdb

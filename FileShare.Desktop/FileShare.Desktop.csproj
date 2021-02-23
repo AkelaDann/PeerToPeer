@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -69,7 +70,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PeerHostServices\PeerServiceHost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PeerClientServices\" />
+    <Folder Include="PeerHostServices\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileShare.Contract\FileShare.Contract.csproj">
@@ -110,10 +111,6 @@
     <ProjectReference Include="..\FileShare.Logics\FileShare.Logics.csproj">
       <Project>{1e9d7050-a7b2-4c06-b255-7fbdac1543ba}</Project>
       <Name>FileShare.Logics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\FileShare.Test\FileShare.Test.csproj">
-      <Project>{533eff61-6571-4dba-a00b-df04c7bfe061}</Project>
-      <Name>FileShare.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

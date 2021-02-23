@@ -46,6 +46,7 @@
     <Compile Include="PnrpManager\PeerNameResolver.cs" />
     <Compile Include="PnrpManager\PeerRegistrationManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceManager\IEndPoint.cs" />
     <Compile Include="ServiceManager\PeerConfigurationService.cs" />
     <Compile Include="ServiceManager\PingService.cs" />
   </ItemGroup>

@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PeerHostServices\PeerServicesHost.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,18 +52,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileShare.Domain\FileShare.Domain.csproj">
-      <Project>{2A0EB564-F83A-4CD0-BB69-F9A2950A5AF6}</Project>
-      <Name>FileShare.Domain</Name>
-    </ProjectReference>
     <ProjectReference Include="..\FileShare.Contract\FileShare.Contract.csproj">
       <Project>{DAECDA85-80CD-4EB9-85EB-B47313B6DB43}</Project>
       <Name>FileShare.Contract</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FileShare.Domain\FileShare.Domain.csproj">
+      <Project>{2a0eb564-f83a-4cd0-bb69-f9a2950a5af6}</Project>
+      <Name>FileShare.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FileShare.Logics\FileShare.Logics.csproj">
-      <Project>{1E9D7050-A7B2-4C06-B255-7FBDAC1543BA}</Project>
+      <Project>{1e9d7050-a7b2-4c06-b255-7fbdac1543ba}</Project>
       <Name>FileShare.Logics</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PeerClientServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
