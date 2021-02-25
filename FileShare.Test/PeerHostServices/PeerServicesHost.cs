@@ -49,7 +49,12 @@ namespace FileShare.Test.PeerHostServices
                 {
                     Console.WriteLine("Peer services started");
                     
-                    peer.Channel.Ping(ConfigurePeer.port, RegisterPeer.PeerUri);
+                    peer.Channel.Ping(new HostInfo
+                    {
+                        Id = peer.PeerId,
+                        Port = ConfigurePeer.port,
+                        Uri = RegisterPeer.PeerUri 
+                    });
                     
                     
                     if(ConfigurePeer != null)
@@ -65,12 +70,12 @@ namespace FileShare.Test.PeerHostServices
             }
         }
 
-        private void PingServicesOnPeerEndPointInformation(PeerEndPointInfo endPointInfo)
+        private void PingServicesOnPeerEndPointInformation(HostInfo endPointInfo)
         {
             if(endPointInfo != null)
             {
-                Console.WriteLine($"New Peer EndPoint{endPointInfo.PeerUri}");
-                endPointInfo.PeerIpColletion.ToList()?.ForEach(p => Console.WriteLine($"\t\t\t IP:{p.Address}:{p.Port}"));
+                Console.WriteLine($"New Peer EndPoint{endPointInfo.Uri}");
+                
             }
         }
     }

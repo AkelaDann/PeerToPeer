@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\FilePartExtension.cs" />
+    <Compile Include="FileShareServices\FileShareHostServices\FileShareHostService.cs" />
     <Compile Include="PnrpManager\PeerServicesHost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
@@ -72,7 +73,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FileShareServices\FileShareClientServices\" />
-    <Folder Include="FileShareServices\FileShareHostServices\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FileShare.Contract\FileShare.Contract.csproj">

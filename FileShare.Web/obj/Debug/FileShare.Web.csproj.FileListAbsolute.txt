@@ -1,0 +1,7 @@
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\FileShare.Web.csprojAssemblyReference.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\Views\FileDetailView.g.cs
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\Views\MainView.g.cs
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\Views\LoginView.g.cs
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\Views\FileResultView.g.cs
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\FileShare.Web_MarkupCompile.cache
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\FileShare.Web_MarkupCompile.lref

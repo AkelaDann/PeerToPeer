@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileShare.Test", "FileShare
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileShare.Web", "FileShare.Web\FileShare.Web.csproj", "{DCB4C750-AC83-4DEF-9810-C0D43C577053}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{4DD4DAB7-A833-4D1D-9AFE-B9CAB0368375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileShare.SampleData", "FileShare.SampleData\FileShare.SampleData.csproj", "{0F05D7C9-3351-4274-8E75-A6D335332CEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,10 @@ Global
 		{DCB4C750-AC83-4DEF-9810-C0D43C577053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCB4C750-AC83-4DEF-9810-C0D43C577053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCB4C750-AC83-4DEF-9810-C0D43C577053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F05D7C9-3351-4274-8E75-A6D335332CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F05D7C9-3351-4274-8E75-A6D335332CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F05D7C9-3351-4274-8E75-A6D335332CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F05D7C9-3351-4274-8E75-A6D335332CEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{1E9D7050-A7B2-4C06-B255-7FBDAC1543BA} = {96DAAEF6-BE55-4B15-B0B6-90CF4BC7EA10}
 		{533EFF61-6571-4DBA-A00B-DF04C7BFE061} = {794E8351-17AE-4C10-A41E-8369C964A729}
 		{DCB4C750-AC83-4DEF-9810-C0D43C577053} = {1EAF27B4-6C54-47BF-A663-D2C842A6995C}
+		{0F05D7C9-3351-4274-8E75-A6D335332CEE} = {4DD4DAB7-A833-4D1D-9AFE-B9CAB0368375}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F404F158-54B3-470E-B012-4336BAB1C732}

@@ -8,5 +8,10 @@
         public int FileLenght { get; set; }
 
         public byte[] FileContent { get; set; }
+
+        public FileMetaData GetFileMeta()
+        {
+            return new FileMetaData(FileId, FileName, FileLenght);
+        }
     }
 }

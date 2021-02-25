@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileShare\IFileShareHostService.cs" />
+    <Compile Include="FileShare\IFileShareService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IPeerNameResolverRepository.cs" />
     <Compile Include="Repository\IPeerRegistrationRepository.cs" />
@@ -55,8 +57,6 @@
       <Name>FileShare.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FileShare\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FileShare.Domain.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -11,6 +12,9 @@ namespace FileShare.Contract.Services
     public interface IPingServices
     {
         [OperationContract(IsOneWay = true)]
-        void Ping(int Port, string peerUri);
+        void Ping(HostInfo host);
+
+        [OperationContract(IsOneWay = true)]
+        void SearchFiles(string searchTerm, string ClientHost);
     }
 }
