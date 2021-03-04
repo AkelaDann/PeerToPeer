@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\
+C:\Users\danie\source\repos\AkelaDann\PeerToPeer\FileShare.Web\obj\Debug\
 FileShare.Web
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 4686710987
 
-9-748204909
-151099381816
+10-195818712
+181959536916
 Views\FileDetailView.xaml;Views\MainView.xaml;Views\LoginView.xaml;Views\FileResultView.xaml;
 
 True

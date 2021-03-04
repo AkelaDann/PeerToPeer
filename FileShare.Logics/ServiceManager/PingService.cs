@@ -7,6 +7,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using FileShare.Domain.FileSearch;
+using System.Collections.ObjectModel;
 
 namespace FileShare.Logics.ServiceManager
 {
@@ -17,6 +18,18 @@ namespace FileShare.Logics.ServiceManager
     {
         public event OnPeerInfo PeerEndPointInformation;
         public event FileSearchResultDelegate FileSearchResult;
+
+        public PingService()
+        {
+
+        }
+        public PingService(HostInfo info)
+        {
+            FileServiceHost = info;
+            ClientHostDetails = new ObservableCollection<HostInfo>();
+        }
+
+
         public void Ping(HostInfo info)
         {
             var Host = Dns.GetHostEntry(info.Uri);
@@ -34,11 +47,32 @@ namespace FileShare.Logics.ServiceManager
 
         }
 
-        
+        public HostInfo FileServiceHost { get; set; }
+        public ObservableCollection <FileMetaData> AvaliableFileMetaData { get; set; }
+        public ObservableCollection<HostInfo> ClientHostDetails { get; set; }
 
-        public void SearchFiles(string searchTerm, string ClientHost)
+
+
+        public void SearchFiles(string searchTerm, string peerId)   
         {
-            throw new NotImplementedException();
+            if (ClientHostDetails.Any())
+            {
+                var info = ClientHostDetails.First(p => p.Id == peerId);
+                var result = (from file in AvaliableFileMetaData
+                              where searchTerm == file.FileName
+                              select file);
+                if (info != null)
+                {
+                    if(result.Any())
+                    {
+                        FileSearchResultModel search = new FileSearchResultModel
+                        {
+                            ServisceHost = FileServiceHost,
+                            Files = (ObservableCollection<FileMetaData>)result
+                        };
+                    }
+                }
+            }
         }
     }   
 }

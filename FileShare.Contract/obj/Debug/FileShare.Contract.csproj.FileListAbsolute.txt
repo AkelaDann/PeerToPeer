@@ -25,3 +25,5 @@ C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\Fi
 C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.csproj.CopyComplete
 C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.dll
 C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\obj\Debug\FileShare.Contract.pdb
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\System.ServiceModel.Primitives.dll
+C:\Users\danie\Source\Repos\AkelaDann\PeerToPeer\FileShare.Contract\bin\Debug\System.ServiceModel.Primitives.pdb

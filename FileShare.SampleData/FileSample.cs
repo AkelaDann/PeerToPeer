@@ -49,5 +49,15 @@ namespace FileShare.SampleData
 
             return _avaliableFiles;
         }
+
+        public static ObservableCollection<FileMetaData> GetFileMetaData()
+        {
+            if (!_metaDatas.Any())
+            {
+                GetAvaliableFiles();
+                    return _metaDatas;
+            }
+            return _metaDatas;
+        }
     }
 }

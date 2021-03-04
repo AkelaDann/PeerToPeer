@@ -10,7 +10,7 @@ using static FileShare.Domain.Model.FileMetaData;
 
 namespace FileShare.Contract.FileShare
 {
-    [ServiceContract]
+    [ServiceContract(CallbackContract = typeof(IFileShareServiceCallBack), SessionMode = SessionMode.Required)]
     public interface IFileShareService
     {
         [OperationContract(IsOneWay = false)]
@@ -21,6 +21,9 @@ namespace FileShare.Contract.FileShare
 
         [OperationContract(IsOneWay = false)]
         void FowardResult(FileSearchResultModel Result);
+
+        [OperationContract(IsOneWay = true)]
+        void PingHostService(HostInfo info);
 
     }
 }

@@ -1,5 +1,8 @@
-﻿namespace FileShare.Domain.Model
+﻿using System.Runtime.Serialization;
+
+namespace FileShare.Domain.Model
 {
+    [DataContract]
     public class FilePart
     {
         public FilePart(int take, int skip =0)
@@ -8,7 +11,9 @@
             Skip = skip;
         }
 
+        [DataMember]
         public int Take { get; }
+        [DataMember]
         public int Skip { get;  set; }
     }
 }
