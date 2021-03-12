@@ -21,13 +21,13 @@ namespace FileShare.Logics.ServiceManager
 
         public PingService()
         {
-
-        }
-        public PingService(HostInfo info)
-        {
-            FileServiceHost = info;
             ClientHostDetails = new ObservableCollection<HostInfo>();
         }
+        //public PingService(HostInfo info)
+        //{
+        //    FileServiceHost = info;
+        //    ClientHostDetails = new ObservableCollection<HostInfo>();
+        //}
 
 
         public void Ping(HostInfo info)
